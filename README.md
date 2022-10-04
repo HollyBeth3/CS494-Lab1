@@ -6,11 +6,13 @@ The compilation line on its own is "g++ -o draw draw.cpp". To run draw.cpp on it
 Every run creates a .jgr and .jpg file for the created illustration.
 
 ### Description
-I created a few .jgr files seperately and converted them to .jpg to see how they looked on there own. There are three main feature files: the Death Star, an owl, and Buckbeak. For example, here is the owl as an image.
+I love to draw and wanted to create an interactive program that generates styalized illustrations of simplified versions of some of my favorite subjects. Similar to traditional art, I wanted users to be able to choose a background, main feature, and foreground element. The three main feature options I ended up choosing are an owl, the Death Star from Star Wars, and Buckbeak from Harry Potter. The finished product allows users to create an image with a customizable background, a chosen main feature, and foreground elements.
+Firstly, I created a few .jgr files seperately and converted them to .jpg to see how they looked on there own. There are three main feature files: the Death Star, an owl, and Buckbeak. For example, here is the owl as an image.
 ![name](https://github.com/HollyBeth3/CS494-Lab1/blob/main/cropped_images/cropped_owl.jpg?raw=true)
-Then I converted them into .eps files to be used in draw.cpp. 
+
+Then I converted the main features and foreground elements into .eps files to be used in draw.cpp. 
 My program draw.cpp creates top and bottom rectangles in the background using the given rgb values, places the main feature in the middle, and places foreground elements around it. Because the jgaph executable in draw.cpp is "/home/jplank/bin/LINUX-X86_64/jgraph", everything should be run from the hydras.
-There are four possible foreground elements: stars, pink flowers, blue flowers, and yellow flowers. For instance, here is the pink flower.
+There are four possible foreground elements: stars, pink flowers, blue flowers, and yellow flowers. For instance, here is the pink flower image.
 ![name](https://github.com/HollyBeth3/CS494-Lab1/blob/main/cropped_images/cropped_pinkFlower.jpg?raw=true)
 Here is the third image created by the Makefile.
 ![name](https://github.com/HollyBeth3/CS494-Lab1/blob/main/cropped_images/cropped_wow3.jpg?raw=true)
