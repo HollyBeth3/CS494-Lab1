@@ -6,5 +6,5 @@ The compilation line on its own is "g++ -o draw draw.cpp". To run draw.cpp on it
 
 ### Description
 I created a few .jgr files seperately and converted them to .jpg to see how they looked on there own. There are three main feature files:
-![name](https://github.com/HollyBeth3/CS494-Lab1/blob/main/images/owl.jpg?raw=true)
+![name](https://github.com/HollyBeth3/CS494-Lab1/blob/main/cropped_images/cropped_DeathStar.jpg?raw=true)
 My program draw.cpp creates a top and bottom rectangles in the background using the given rgb values, places the main feature in the middle based on the given line, and places foreground elements all around it.
